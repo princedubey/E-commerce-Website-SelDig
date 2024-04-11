@@ -2,9 +2,6 @@
 <div align="center"> 
 <img src="https://github.com/ranizouaoui/E-commerce/blob/main/src/assets/thumbnail.jpg" alt="" />
  </div>  
- 
-## Preface
-This is my first web project which is an online store. I created the site with vuejs and firebase. In addition, the project is a practical application to the training I followed on the "<a href="https://vueschool.io/">Vue school</a>" site.
 
 <h4> Why I chose vuejs framework? </h4>
 
