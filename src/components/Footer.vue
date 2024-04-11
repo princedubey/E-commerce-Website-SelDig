@@ -8,10 +8,8 @@
             <br />
 
             <p>
-              No. 1 of #Gaming in Tunisia, Gamers PCs & Pro Stations,
-              accessories and components, the cheapest prices Telephone:
-
-              <br />(+216) 54 819 819 <br />(+216) 54 819 817
+              Prince dubey full stack developer.
+              <br />(+91) 6203720899 <br />(+91) 9709999392
             </p>
           </div>
 

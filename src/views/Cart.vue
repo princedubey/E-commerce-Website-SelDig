@@ -65,7 +65,7 @@
                     </td>
                     <td class="align-middle border-bottom-0">
                       <p class="mb-0" style="font-weight: 500">
-                        {{ item.totalPrice }} DT
+                        ₹ {{ item.totalPrice }} 
                       </p>
                     </td>
                     <td class="align-middle border-bottom-0">
@@ -93,7 +93,7 @@
                     style="font-weight: 500"
                   >
                     <p class="mb-2">Subtotal</p>
-                    <p class="mb-2">{{ totalPrice - 7 }} DT</p>
+                    <p class="mb-2">₹ {{ totalPrice - 7 }}</p>
                   </div>
 
                   <div
@@ -101,7 +101,7 @@
                     style="font-weight: 500"
                   >
                     <p class="mb-0">Shipping</p>
-                    <p class="mb-0">7 DT</p>
+                    <p class="mb-0">₹ 7</p>
                   </div>
 
                   <hr class="my-4" />
@@ -111,7 +111,7 @@
                     style="font-weight: 500"
                   >
                     <p class="mb-2">Total (Shipping included)</p>
-                    <p class="mb-2">{{ totalPrice }}DT</p>
+                    <p class="mb-2">₹ {{ totalPrice }}</p>
                   </div>
 
                   <button

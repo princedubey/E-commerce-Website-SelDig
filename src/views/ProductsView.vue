@@ -28,7 +28,7 @@
             <div class="card-body">
               <div class="clearfix mb-3">
                 <span class="float-start badge rounded-pill bg-success"
-                  >{{ item.price }}DT</span
+                  >₹ {{ item.price }}</span
                 >
 
                 <span class="float-end"
@@ -134,7 +134,7 @@
                   <h5 class="card-title">{{ dataProduct.name }}</h5>
                   <h6 class="card-text">{{ dataProduct.brand }}</h6>
                   <br />
-                  <h6 class="card-text">Price : {{ dataProduct.price }} DT</h6>
+                  <h6 class="card-text">Price : ₹ {{ dataProduct.price }}</h6>
                   <p class="card-text">
                     There are {{ $store.state.count }} items in your cart.
                   </p>

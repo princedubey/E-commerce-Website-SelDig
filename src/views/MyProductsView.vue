@@ -26,7 +26,7 @@
           <div class="card-body">
             <div class="clearfix mb-3">
               <span class="float-start badge rounded-pill bg-success"
-                >{{ item.price }}DT</span
+                >₹ {{ item.price }}</span
               >
 
               <span class="float-end"
@@ -354,18 +354,19 @@ export default {
   methods: {
     AddProduct() {
       addDoc(
-        q,
-
-        this.product
+        collection(db, "products"), this.product
       ).then(() => {
         this.ProgressShow = false;
-        this.messageSuccess = "Added";
+        this.messageSuccess = "Product added successfully";
         this.product.name = "";
-        this.product.price = "";
+        this.product.price = 0;
         this.product.image = "";
         this.product.brand = "";
         this.product.description = "";
-      });
+      })
+      .catch((err) => {
+        console.log(err);
+        })
     },
     getData(name, brand, price, description, image, key) {
       this.dataProduct.name = name;

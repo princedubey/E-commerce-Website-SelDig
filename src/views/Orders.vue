@@ -35,13 +35,13 @@
                 <tr v-for="cartitem in item.cart" :key="cartitem.name">
                   <td>{{ cartitem.name }}</td>
                   <td>{{ cartitem.quantity }}</td>
-                  <td>{{ cartitem.totalPrice }} DT</td>
+                  <td>₹ {{ cartitem.totalPrice }}</td>
                 </tr>
                 <tr>
                   <td colspan="2" class="table-active">
                     Total Price (shipping included)
                   </td>
-                  <td>{{ item.total }} DT</td>
+                  <td>{{ item.total }} ₹</td>
                 </tr>
               </tbody>
             </table>
@@ -188,8 +188,8 @@
                       <small>from</small>
                       <address class="m-t-5 m-b-5">
                         <strong class="text-inverse">SelDig, Inc.</strong><br />
-                        Address: Ouerghech, Ghardimaou<br />
-                        Phone: (+216) 54 819 819
+                        Address: Hyderabad, India<br />
+                        Phone: (+91) 62 03720 899
                       </address>
                     </div>
                     <div class="invoice-to">
@@ -233,9 +233,9 @@
                               ><br />
                               <small>{{ item.brand }}</small>
                             </td>
-                            <td class="text-center">{{ item.price }} DT</td>
+                            <td class="text-center">₹ {{ item.price }}</td>
                             <td class="text-center">{{ item.quantity }}</td>
-                            <td class="text-right">{{ item.totalPrice }} DT</td>
+                            <td class="text-right">₹ {{ item.totalPrice }}</td>
                           </tr>
                         </tbody>
                       </table>
@@ -248,7 +248,7 @@
                           <div class="sub-price">
                             <small>SUBTOTAL</small>
                             <span class="text-inverse"
-                              >{{ productdata.total - 7 }} DT</span
+                              >₹ {{ productdata.total - 7 }}</span
                             >
                           </div>
                           <div class="sub-price">
@@ -256,13 +256,13 @@
                           </div>
                           <div class="sub-price">
                             <small>SHIPPING</small>
-                            <span class="text-inverse">7 DT</span>
+                            <span class="text-inverse">₹ 7</span>
                           </div>
                         </div>
                       </div>
                       <div class="invoice-price-right">
                         <small>TOTAL</small>
-                        <span class="f-w-600">{{ productdata.total }} DT</span>
+                        <span class="f-w-600">₹ {{ productdata.total }}</span>
                       </div>
                     </div>
                     <!-- end invoice-price -->
@@ -284,15 +284,15 @@
                     <p class="text-center">
                       <span class="m-r-10"
                         ><i class="fa fa-fw fa-lg fa-globe"></i>
-                        www.rani4tech.com</span
+                        www.princedubey.com</span
                       >
                       <span class="m-r-10"
                         ><i class="fa fa-fw fa-lg fa-phone-volume"></i>
-                        T:216-99548790</span
+                        PH: 6203720899</span
                       >
                       <span class="m-r-10"
                         ><i class="fa fa-fw fa-lg fa-envelope"></i>
-                        ranizouaouicontact@gmail.com</span
+                        princedubey1998@gmail.com</span
                       >
                     </p>
                   </div>

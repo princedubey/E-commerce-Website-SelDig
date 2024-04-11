@@ -17,12 +17,12 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: () => import('../views/HomeView')
+    component: () => import('../views/HomeView.vue')
   },
   {
     path: '/signin',
     name: 'signin',
-    component: () => import('../views/SignUpView')
+    component: () => import('../views/SignUpView.vue')
   },
 
   // will match everything and put it under `$route.params.pathMatch`
@@ -33,13 +33,13 @@ const routes = [
   {
     path: '/products',
     name: 'products',
-    component: () => import('../views/ProductsView'),
+    component: () => import('../views/ProductsView.vue'),
 
   },
   {
     path: '/myproducts',
     name: 'myproducts',
-    component: () => import('../views/MyProductsView'),
+    component: () => import('../views/MyProductsView.vue'),
     meta: {
       requiresAuth: true
     }
@@ -47,19 +47,19 @@ const routes = [
   {
     path: '/products/:id',
     name: 'details',
-    component: () => import('../views/ProductDetails'),
+    component: () => import('../views/ProductDetails.vue'),
 
   },
   {
     path: '/products/:id',
     name: 'LinkNotFound',
-    component: () => import('../views/LinkNotFound'),
+    component: () => import('../views/LinkNotFound.vue'),
 
   },
   {
     path: '/login',
     name: 'login',
-    component: () => import('../views/LoginView')
+    component: () => import('../views/LoginView.vue')
   },
   {
     path: '/logout',
@@ -82,7 +82,7 @@ const routes = [
   {
     path: '/orders',
     name: 'OrdersView',
-    component: () => import('../views/Orders'),
+    component: () => import('../views/Orders.vue'),
     meta: {
       requiresAuth: true
     }

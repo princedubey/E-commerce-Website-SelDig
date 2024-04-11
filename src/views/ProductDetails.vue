@@ -39,7 +39,7 @@
             </div>
 
             <h3 style="color: #005eb8; font-size: xxx-large">
-              {{ product.price }} DT
+              {{ product.price }} ₹
             </h3>
             <div class="mt-2 pr-3 content" style="margin-top: 1rem !important">
               <p style="font-size: 16px">
@@ -152,7 +152,7 @@
                   <h5 class="card-title">{{ product.name }}</h5>
                   <h6 class="card-text">{{ product.brand }}</h6>
                   <br />
-                  <h6 class="card-text">Price : {{ product.price }} DT</h6>
+                  <h6 class="card-text">Price : {{ product.price }} ₹</h6>
                   <p class="card-text">
                     There are {{ $store.state.count }} items in your cart.
                   </p>
