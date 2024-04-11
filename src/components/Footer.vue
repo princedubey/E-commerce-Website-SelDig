@@ -71,7 +71,7 @@
           "
         >
           <p style="padding-left: 35%">
-            &copy; 2022 Company, Inc. All rights reserved.
+            &copy; 2024 Company, Inc. All rights reserved.
           </p>
         </div>
       </footer>
